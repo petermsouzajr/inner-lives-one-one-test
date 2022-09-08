@@ -23,8 +23,8 @@ const LoginModule: types.Brick<LoginModuleProps> = ({}) => {
 // Brick Schema
 //=============================
 LoginModule.schema = {
-  name: 'my-hero-unit',
-  label: 'Custom Hero Unit',
+  name: 'login-module',
+  label: 'User Login Module',
   getDefaultProps: () => ({
     padding: 'big',
     title: 'This is a custom Hero Unit',
