@@ -15,7 +15,13 @@ interface LoginModuleProps {
 //=============================
 const LoginModule: types.Brick<LoginModuleProps> = ({}) => {
   return (
-   <div></div>
+    <form>
+      <label htmlFor='username'>Username</label>
+      <input placeholder='Username' />
+      <label htmlFor='password'>Password</label>
+      <input placeholder='password' />
+      <button type='submit'>Login</button>
+    </form>
   )
 }
 
